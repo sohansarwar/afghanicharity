@@ -233,11 +233,58 @@ img{
     width: 800px;
     margin: auto;
 }
+.mission{
+    margin-top: -250px;
+}
+.mission span {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.mission p {
+    text-align: center;
+}
+
+.mission2 {
+    height: 600px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.mission2 div:nth-child(1) {
+    height: 300px;
+    width: 400px;
+    background-image: url(img/mission1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission2 div:nth-child(2) {
+    height: 300px;
+    width: 400px;
+    background-image: url(img/mission2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission2 div:nth-child(3) {
+    height: 300px;
+    width: 400px;
+    background-image: url(img/mission3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .subscribe{
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: -150px;
+    margin-top: -250px;
 }
 .subscribe .subscribetext{
     text-align: center;
