@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.imgbox{
+    height: 695px;
+    width: 100%;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    position: relative;
+}
+.imgtext{
+    position: absolute;
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 167.5px;
+    color: white;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+.imgtext p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.imgtext button{
+    width: 200px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    text-transform: capitalize;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+.donetsection{
+    height: 600px;
+    width: 100%;
+    margin: auto;
+}
+.dtext{
+    margin-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+}
+.dtext p{
+    margin-top: 20px;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.amount button{
+    height: 80px;
+    width: 120px;
+    background-color: rgb(238, 238, 238);
+    margin: 30px;
+    border: none;
+    font-size: larger;
+    border-radius: 5px;
+}
+.amount button:nth-child(2){
+    background-color: rgb(224, 174, 165);
+    border: 2px solid rgb(247, 162, 147);
+    color: tomato;
+    font-weight: bold;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.input input{
+    border: none;
+    outline: none;
+    font-size: large;
+    padding: 10px;
+}
+.input input:hover{
+    outline: none;
+}
+.donetsection hr{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 500px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    text-transform: capitalize;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 25px;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.half-width p{
+    margin-left: -25px;
+}
+.half-width img{
+    width: 100%;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.top-banner .dream-area p{
+    color: dimgray;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: -200px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.donetplan{
+    margin-top: -20px;
+}
+.dptext{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+}
+.dptext p{
+    margin-top: 10px;
+
+}
+.box{
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+.box img{
+    height: 50px;
+    width: 50px;
+}
+
+.box1,
+.box2,
+.box3{
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 350px;
+    width: 400px;
+    margin-left: 20px;
+    border: none;
+}
+.box1{
+    background-color: rgb(237, 245, 238);
+}
+.box2{
+    background-color: rgb(235, 214, 218);
+}
+.box3{
+    background-color: antiquewhite;
+}
+
+h4{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+img{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+.btn button {
+    height: 100px;
+    width: 200px;
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
+
+.btn button:hover {
+    border: none;
+    cursor: pointer;
+}
+.box-2{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: -150px;
+}
+.subscribe .subscribetext{
+    text-align: center;
+}
+.sbox{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: antiquewhite;
+    height: 200px;
+    width: 800px;
+}
+.sbox2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.sbox input:nth-child(1){
+    height: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.sbox input:nth-child(2){
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+.ftext{
+    margin-top: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer .ftext h1{
+    padding-top: 50px;
+    color: tomato;
+    font-family: 'Lobster', cursive;
+}
+footer .ftext p{
+    padding-bottom: 50px;
+}
